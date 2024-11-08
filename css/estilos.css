@@ -1,0 +1,108 @@
+/*normalizar los estilos: es eliminar los estilos que el navegador aplica*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(120, 207, 49);
+}
+.contenedor{
+    background-color: rgb(113, 133, 126);
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td{
+    border: 5px solid black;
+    border-collapse: collapse;
+    background-color: rgb(95, 160, 86);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table{
+    border: 5px solid black;
+}
+th{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+header{background-color: rgb(85, 59, 109);
+    padding: 25px;
+}
+h1{
+    color: brown;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+h2{
+    color: rgb(199, 151, 188);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    color: rgb(9, 22, 22);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    color: rgb(219, 174, 107);
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    color: rgb(219, 174, 107);
+    text-align: center;
+}
+.data{
+    background-color: rgb(9, 132, 240);
+}
+.empresas{
+    border: 10px solid black;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 450px;
+}
+text{
+    text-align: center;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.derechos{
+    text-align: center;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+}
+footer{
+    background-color: rgb(85, 59, 109);
+}
